@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cetekan lampu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="lampu-utama">
+            <div class="lampu">
+                <img class="gambar" src="Gambar/off.png" alt="" id="lampu1">
+                <li onclick="saklar('on', 1)" class="button">Nyalakan </li>
+                <li onclick="saklar('off', 1)" class="button">Matikan </li>
+            </div>
+            <div class="lampu">
+                <img class="gambar" src="Gambar/off.png" alt="" id="lampu2">
+                <li onclick="saklar('on' , 2)" class="button">Nyalakan </li>
+                <li onclick="saklar('off' , 2)" class="button">Matikan </li>
+            </div>
+            <div class="lampu">
+                <img class="gambar" src="Gambar/off.png" alt="" id="lampu3">
+                <li onclick="saklar('on' , 3)" class="button">Nyalakan </li>
+                <li onclick="saklar('off', 3)" class="button">Matikan </li>
+            </div>
+        </div>
+    </div>
+    <script src="listrik.js"></script>
+</body>
+
+</html>

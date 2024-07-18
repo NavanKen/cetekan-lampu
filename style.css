@@ -1,0 +1,60 @@
+*,
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    background-color: rgb(69, 67, 67);
+}
+
+
+.lampu-utama {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+
+}
+
+.gambar {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.lampu {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 200px;
+}
+
+.button {
+    width: 100px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: rgb(208, 205, 205);
+    font-size: 20px;
+    background-color: rgb(47, 46, 46);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button:hover {
+    background-color: rgb(189, 187, 187);
+    color: black;
+    border-radius: 8px;
+    transition: .5s ease-in-out;
+    transition-delay: .1s;
+    cursor: pointer;
+}
